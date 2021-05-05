@@ -30,12 +30,12 @@ You may run ./run_test_COVID.sh to test GATEkeeper with two COVID_19 virus strai
 To index a reference genome, GATEkeeper requires the target genome file (in fasta format) and the prefix of the index files (including the directory path).
 
   ```
-  $ bin/bwt_index ref_file[ex. ecoli.fa] index_prefix[ex. Ecoli]
+  $ bin/bwt_index ref_file[ex. ecoli.fa] index_prefix[ex. ecoli]
   ```
 or
 
   ```
-  $ bin/GATEkeeper index ref_file[ex. ecoli.fa] index_prefix[ex. Ecoli]
+  $ bin/GATEkeeper index ref_file[ex. ecoli.fa] index_prefix[ex. ecoli]
   ```
 
 The above command is to index the genome file Ecoli.fa and store the index files begining with ecoli.
