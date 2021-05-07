@@ -1,4 +1,4 @@
-GATEkeeper: Genome alignment, tracking and evlutionary analysis of COVID-19 virus
+GATEkeeper: Genome Alignment, Tracking and Evlutionary analysis of COVID-19 virus
 ===================
 
 Developers: Dr. Yong Chen, Rowan University
