@@ -15,7 +15,11 @@ GATEkeeper is an effective pipeline to detect and annotate mutations. Based on l
 to download the package of GATEkeeper.
 
 # Requirements
-BWA (http://bio-bwa.sourceforge.net/)
+BWA (http://bio-bwa.sourceforge.net/). BWA is a software package for mapping low-divergent sequences against a large reference genome, e.g. aligning sequencing reads against the human genome. You need to install it first. The Anacoda-based installation is recommendated.
+
+$conda install -c bioconda bwa
+
+There are many other way to install, please go to https://github.com/lh3/bwa for more details.
 
 # Compiling
 
