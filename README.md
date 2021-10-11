@@ -25,12 +25,12 @@ $make
 
 You may run ./run_test.sh to test GATEkeeper with two E.coli strains.
 
-$sh runr_test.sh
+$sh run_test.sh
 
 OR
 You may run ./run_test_COVID.sh to test GATEkeeper with two COVID_19 virus strains.
 
-$sh runr_test_COVID.sh
+$sh run_test_COVID.sh
 
 # Instructions
 
