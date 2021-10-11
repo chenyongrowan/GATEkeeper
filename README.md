@@ -19,7 +19,7 @@ BWA (http://bio-bwa.sourceforge.net/). BWA is a software package for mapping low
 
 $conda install -c bioconda bwa
 
-There are many other way to install, please go to https://github.com/lh3/bwa for more details.
+There are many other ways to install, please go to https://github.com/lh3/bwa for more details.
 
 # Compiling
 
