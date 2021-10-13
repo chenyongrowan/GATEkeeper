@@ -16,26 +16,30 @@ to download the package of GATEkeeper.
 
 # Requirements
 BWA (http://bio-bwa.sourceforge.net/). BWA is a software package for mapping low-divergent sequences against a large reference genome, e.g. aligning sequencing reads against the human genome. You need to install it first. The Anacoda-based installation is recommendated.
-
+ 
+```
 $ conda install -c bioconda bwa
-
+ ```
+ 
 There are many other ways to install, please go to https://github.com/lh3/bwa for more details.
 
 # Compiling
 
 To compile GATEkeeper and the index tool, please change to GATEkeeper's folder and just type 'make' to compile GATEkeeper and bwt_index. If the compilation or the programs fail, please contact me (chenyong@rowan.edu).
 
+ ```
 $ make
-
+ ```
 You may run ./run_test.sh to test GATEkeeper with two E.coli strains.
-
+ ```
 $ sh run_test.sh
-
+ ```
+ 
 OR
 You may run ./run_test_COVID.sh to test GATEkeeper with two COVID_19 virus strains.
-
+ ```
 $sh run_test_COVID.sh
-
+ ```
 # Instructions
 
 To index a reference genome, GATEkeeper requires the target genome file (in fasta format) and the prefix of the index files (including the directory path).
